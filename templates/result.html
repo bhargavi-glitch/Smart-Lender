@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏦 Smart Lender</h1>
+
+    <h2>Prediction Result</h2>
+
+    <table>
+
+        <tr>
+            <td><b>Gender</b></td>
+            <td>{{ gender }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Married</b></td>
+            <td>{{ married }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Dependents</b></td>
+            <td>{{ dependents }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Education</b></td>
+            <td>{{ education }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Self Employed</b></td>
+            <td>{{ self_employed }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Applicant Income</b></td>
+            <td>₹ {{ applicant_income }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Co-applicant Income</b></td>
+            <td>₹ {{ coapplicant_income }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Loan Amount</b></td>
+            <td>₹ {{ loan_amount }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Loan Amount Term</b></td>
+            <td>{{ loan_term }} Months</td>
+        </tr>
+
+        <tr>
+            <td><b>Credit History</b></td>
+            <td>{{ credit_history }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Property Area</b></td>
+            <td>{{ property_area }}</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <h2>{{ prediction }}</h2>
+
+    <br>
+
+    <a href="/">
+        <button>Predict Another Loan</button>
+    </a>
+
+</div>
+
+</body>
+</html>
