@@ -18,6 +18,8 @@ Technical Stack (Standard Implementation) -
 • Machine Learning: Scikit-Learn, Pandas, and NumPy for data cleaning and model training. 
 • Deployment: Cloud platforms like IBM Cloud, AWS, or Render. 
 
-#LIVE DEMO
+LIVE DEMO - https://smart-lender-16bp.onrender.com
 
-https://smart-lender-16bp.onrender.com
+RENDER LINK - https://smart-lender-16bp.onrender.com
+
+DEMO VIDEO LINK - https://drive.google.com/file/d/1iFAa-K5wObYhasLGjlg1efjqLRfRk0i6/view?usp=drive_link
